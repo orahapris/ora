@@ -15,7 +15,7 @@ rm -rf $HOME/.nolus/data
 ```bash
 wget http://88.198.18.88:8111/nolusdata.tar.gz && tar -xf nolusdata.tar.gz -C $HOME/.nolus
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
-rm -rf tRDM_nolus.tar.gz
+rm -rf nolusdata.tar.gz
 ```
 ##### Restart the service 
 ```bash
