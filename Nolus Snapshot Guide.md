@@ -19,7 +19,7 @@ rm -rf nolusdata.tar.gz
 ```
 ##### Restart the service 
 ```bash
-sudo systemctl restart nolusd && 
+sudo systemctl restart nolusd 
 ```
 ##### Check the log
 ```bash
